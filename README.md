@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hey there 👋
+
+I’m a full-stack developer eager to learn and adapt to this fast paced industry. Coming from an applied human sciences background, I intend to weave human sciences with computer sciences. With technology becoming a part of every aspect of life, I want to contribute to this integral shift in our society.
 
 <!--
 **myra-grace/myra-grace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

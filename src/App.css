@@ -1,0 +1,61 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background: rgb(90,249,255);
+background: radial-gradient(circle, rgba(90,249,255,1) 0%, rgba(227,144,255,1) 100%);
+}
+
+header {
+  grid-template-rows: 1fr;
+  background-color: thistle;
+}
+
+header h1, h2 {
+  margin: 5px;
+}
+
+.main {
+  grid-template-rows: 1fr;
+  display: grid;
+  place-items: center;
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+  background-color: teal;
+  grid-template-rows: 1fr;
+  display: grid;
+  place-items: center;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linkedin, .github {
+  cursor: pointer;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  margin: 10px 5px 5px;
+  border: 2px solid rosybrown;
+  border-radius: 50%;
+  background-color: transparent;
+  color: rosybrown;
+
+  display: grid;
+  place-content: center;
+}
+
+.email {
+  margin-bottom: 5px;
+  border: none;
+  background-color: transparent;
+  color: rosybrown;
+}
