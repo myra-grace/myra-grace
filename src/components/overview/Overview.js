@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useRef } from "react";
 import './Overview.css';
 
-const Overview = () => {
+const Overview = (props) => {
     return (
         <div className="overview-container">
-            <h1>Modern · Dynamic</h1>
-            <p>Custom make your website from scratch or start from a template.</p>
-            <p><a className="link-to" href="https://www.linkedin.com/in/myra-grace-s/">See Templates</a></p>
+            <h1 className="overview-title">{props.title}</h1>
+            <p className="overview-text">{props.text}</p>
+            <p><a className="overview-link-to" href={props.link}>{props.linktext}</a></p>
         </div>
     )
 }

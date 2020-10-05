@@ -55,16 +55,16 @@ const Navbar = () => {
     history.push(`/`);
     scrollToTop();
   }
-  const handleProducts = (event) => {
+  const handleProjects = (event) => {
     event.preventDefault();
-    history.push(`/`);
+    history.push(`/projects`);
     handleToggle();
     scrollToTop();
   }
 
-  const handleTools = (event) => {
+  const handleTemplates = (event) => {
     event.preventDefault();
-    history.push(`/`);
+    history.push(`/templates`);
     handleToggle();
     scrollToTop();
   }
@@ -94,11 +94,11 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="navbar">
-        <button className="home-button" onClick={handleHome}>M.G.S.</button>
+        <button className="home-button" onClick={handleHome}>Myra-Grace Salinas</button>
         <div id="desktop-nav">
           {/* <a href="#overview">Overview</a> */}
-          <button onClick={handleProducts}>Products</button>
-          <button onClick={handleTools}>Tools</button>
+          <button onClick={handleProjects}>Projects</button>
+          <button onClick={handleTemplates}>Templates</button>
           {/* <button onClick={handleGallery}>Gallery</button> */}
           <button onClick={handleAbout}>About</button>
         </div>
@@ -114,8 +114,8 @@ const Navbar = () => {
       </div>
       <div id="mobile-nav">
         {/* <a href="#overview">Overview</a> */}
-        <button onClick={handleProducts}>Products</button>
-        <button onClick={handleTools}>Tools</button>
+        <button onClick={handleProjects}>Projects</button>
+        <button onClick={handleTemplates}>Templates</button>
         {/* <button onClick={handleGallery}>Gallery</button> */}
         <button onClick={handleAbout}>About</button>
       </div>

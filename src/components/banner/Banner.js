@@ -7,7 +7,7 @@ const Banner = (props) => {
         <div className="banner-container">
             <p>{props.catch}</p>
             <h1>{props.title}</h1>
-            <p><a className="link-to" href={props.link}>{props.linktotext}</a></p>
+            <p><a className="banner-link-to" href={props.link}>{props.linktotext}</a></p>
         </div>
     )
 }

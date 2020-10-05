@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
-/* font-family: 'Amatic SC', cursive; */
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
-/* font-family: 'Caveat', cursive; */
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
-/* font-family: 'Contrail One', cursive; */
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 /* font-family: 'Prata', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+/* font-family: 'Poiret One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+/* font-family: 'Playfair Display', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/* font-family: 'Great Vibes', cursive; */
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
@@ -14,7 +13,7 @@
 .banner-container {
     width: 100%;
     height: 100%;
-    padding: 50px 0;
+    padding: 60px 0;
     background-color: rgb(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     display: grid;
@@ -22,17 +21,18 @@
     font-family: 'Amatic SC', 'Caveat', 'Contrail One', 'Prata',  cursive;
 }
 
-.link-to, .banner-container p {
+.banner-link-to, .banner-container p {
     color: #7A5C61;
     /* text-shadow: 0 0 5px #7A5C61; */
-    font-family: 'Quicksand', 'Yanone Kaffeesatz', 'Contrail One', 'Prata',  cursive;
+    font-family: 'Quicksand', 'Poiret One', 'Caveat', 'Yanone Kaffeesatz', 'Contrail One', 'Prata',  cursive;
     text-decoration: none;
 }
 
 .banner-container h1 {
     max-width: 100vw;
-    font-size: 80px;
-    color: black;
-    text-shadow: none;
-    font-family: 'Amatic SC', 'Caveat', 'Contrail One', 'Prata',  cursive;
+    padding: 20px;
+    font-size: 45px;
+    color: #3E3E42;
+    text-shadow:none;
+    font-family: 'Playfair Display', 'Prata', 'Poiret One', 'Great Vibes',  cursive;
 }

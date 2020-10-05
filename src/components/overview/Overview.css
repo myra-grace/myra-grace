@@ -1,3 +1,28 @@
-.overview-container h1 {
-    text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* font-family: 'Bebas Neue', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+/* font-family: 'Staatliches', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+/* font-family: 'Alegreya Sans SC', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+/* font-family: 'Patrick Hand SC', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap");
+/* font-family: 'Montserrat Subrayada', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+/* font-family: 'Prata', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+/* font-family: 'Poiret One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+/* font-family: 'Playfair Display', serif; */
+
+.overview-title {
+    font-family: 'Prata', 'Playfair Display', 'Poiret One', 'Great Vibes',  cursive;
+}
+
+.overview-text {
+    margin: 40px 0;
+}
+
+.overview-link-to {
+    font-family: 'Montserrat Subrayada', 'Patrick Hand SC', 'Alegreya Sans SC', 'Staatliches', 'Bebas Neue', cursive;
 }

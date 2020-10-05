@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+/* font-family: 'Amatic SC', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+/* font-family: 'Caveat', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+/* font-family: 'Contrail One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+/* font-family: 'Prata', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+/* font-family: 'Poiret One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+/* font-family: 'Playfair Display', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* font-family: 'Bebas Neue', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+/* font-family: 'Staatliches', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 .App {
   width: 100vw;
   height: 100vh;
@@ -8,8 +28,14 @@
 }
 
 a, button, p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', 'Poiret One', 'Prata',  cursive;
   text-decoration: none;
   color: #7A5C61;
+}
+
+a {
+  font-family: 'Staatliches', 'Bebas Neue', cursive;
+  color: #01cdfe;
 }
 
 .header {
@@ -25,20 +51,4 @@ a, button, p, h1, h2, h3, h4, h5, h6 {
   grid-template-rows: 1fr;
   display: grid;
   place-items: center;
-}
-
-.landing {
-  width: 100%;
-  background-image: url("https://wallpapercave.com/wp/wp5121842.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  background-attachment: fixed;
-}
-
-.overview {
-  padding: 100px 20px;
 }
