@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from "react";
 import "./App.css";
-import { Icon } from "react-icons-kit";
-import {socialGithub} from 'react-icons-kit/ionicons/socialGithub'
-import { linkedinSquare } from "react-icons-kit/fa/linkedinSquare";
-import { email } from "react-icons-kit/ionicons/email";
 import Gallery from "./components/gallery/Gallery";
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Banner from "./components/banner/Banner";
+import Overview from "./components/overview/Overview";
 
 function App() {
   const [square, setSquare] = useState(300);
@@ -29,31 +29,21 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <h1 className="name">Myra-Grace Salinas</h1>
-        <h2 className="title">Full-Stack Developer</h2>
+        <Navbar />
       </header>
       
       <div className="main">
-        <Gallery square={square}/>
+        {/* <Gallery square={square}/> */}
+        <div className="landing">
+          <Banner catch="Web Developer" title="Myra-Grace Salinas" linktotext="Contact" link="https://www.linkedin.com/in/myra-grace-s/"/>
+        </div>
+        <div className="overview">
+          <Overview />
+        </div>
       </div>
 
       <footer className="footer">
-        <div className="contacts">
-          <a href="https://www.linkedin.com/in/myra-grace-s/">
-            <div className="linkedin">
-              <Icon size={"70%"} icon={linkedinSquare} />
-            </div>
-          </a>
-          <a href="https://github.com/myra-grace">
-            <div className="github">
-              <Icon size={"70%"} icon={socialGithub} />
-            </div>
-          </a>
-          {/* <button>
-            <Icon size={"100%"} icon={email} />
-          </button> */}
-        </div>
-        <button className="email">myrags3@gmail.com</button>
+        <Footer />
       </footer>
     </div>
   );

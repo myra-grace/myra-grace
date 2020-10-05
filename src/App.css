@@ -4,17 +4,21 @@
   text-align: center;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background: rgb(90,249,255);
-background: radial-gradient(circle, rgba(90,249,255,1) 0%, rgba(227,144,255,1) 100%);
+  /* background-color: #282828; */
 }
 
-header {
+a, button, p, h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+  color: #7A5C61;
+}
+
+.header {
   grid-template-rows: 1fr;
-  background-color: thistle;
-}
-
-header h1, h2 {
-  margin: 5px;
+  width: 100vw;
+  max-width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 .main {
@@ -23,39 +27,18 @@ header h1, h2 {
   place-items: center;
 }
 
-footer {
-  width: 100vw;
-  height: auto;
-  background-color: teal;
-  grid-template-rows: 1fr;
-  display: grid;
-  place-items: center;
+.landing {
+  width: 100%;
+  background-image: url("https://wallpapercave.com/wp/wp5121842.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  background-attachment: fixed;
 }
 
-.contacts {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.linkedin, .github {
-  cursor: pointer;
-  text-decoration: none;
-  width: 40px;
-  height: 40px;
-  margin: 10px 5px 5px;
-  border: 2px solid rosybrown;
-  border-radius: 50%;
-  background-color: transparent;
-  color: rosybrown;
-
-  display: grid;
-  place-content: center;
-}
-
-.email {
-  margin-bottom: 5px;
-  border: none;
-  background-color: transparent;
-  color: rosybrown;
+.overview {
+  padding: 100px 20px;
 }
