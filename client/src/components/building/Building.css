@@ -1,0 +1,4 @@
+.building-container {
+    display: grid;
+    place-items: center;
+}

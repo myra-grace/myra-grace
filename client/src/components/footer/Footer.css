@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+/* font-family: 'Prata', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+/* font-family: 'Poiret One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.footer-container {
+  padding: 100px 20px;
+  max-width: 100vw;
+  height: auto;
+  background-color: #fff2ea;
+  grid-template-rows: 1fr;
+  display: grid;
+  place-items: center;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linkedin, .github, .email {
+    margin: 10px;
+    color: #3E3E42;
+}
+
+.linkedin, .github {
+  cursor: pointer;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  margin: 10px 5px 5px;
+  border: 2px solid #3E3E42;
+  border-radius: 50%;
+  background-color: transparent;
+
+  display: grid;
+  place-content: center;
+}
+
+.email {
+  /* color: #3E3E42; */
+  font-size: large;
+  font-family: 'Quicksand', 'Poiret One', 'Prata',  cursive;
+  margin-bottom: 5px;
+  border: none;
+  background-color: transparent;
+}
