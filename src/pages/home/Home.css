@@ -17,3 +17,15 @@
 .overview {
   padding: 100px 20px;
 }
+
+.responsive {
+  width: 100%;
+  background-image: url("https://usabilitygeek.com/wp-content/uploads/2018/06/consistency-improve-user-experience-lead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  background-attachment: fixed;
+}

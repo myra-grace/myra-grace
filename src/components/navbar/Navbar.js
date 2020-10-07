@@ -55,6 +55,7 @@ const Navbar = () => {
     history.push(`/`);
     scrollToTop();
   }
+  
   const handleProjects = (event) => {
     event.preventDefault();
     history.push(`/projects`);
@@ -86,8 +87,14 @@ const Navbar = () => {
   useEffect(() => {
     if (toggle) {
       document.getElementById("mobile-nav").style.display = "flex";
+      document.getElementById("mobile-nav").style.position = "relative";
+      document.getElementById("mobile-nav").style.right = "0";
+      document.getElementById("mobile-nav").style.opacity = "1";
     } else {
-      document.getElementById("mobile-nav").style.display = "none";
+      document.getElementById("mobile-nav").style.display = "flex";
+      document.getElementById("mobile-nav").style.position = "fixed";
+      document.getElementById("mobile-nav").style.right = "-500px";
+      document.getElementById("mobile-nav").style.opacity = "0";
     }
   }, [toggle]);
 

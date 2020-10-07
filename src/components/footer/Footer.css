@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+/* font-family: 'Prata', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+/* font-family: 'Poiret One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 .footer-container {
   padding: 100px 20px;
   max-width: 100vw;
@@ -36,6 +42,7 @@
 .email {
   /* color: #3E3E42; */
   font-size: large;
+  font-family: 'Quicksand', 'Poiret One', 'Prata',  cursive;
   margin-bottom: 5px;
   border: none;
   background-color: transparent;

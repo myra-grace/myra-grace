@@ -36,3 +36,11 @@
     text-shadow:none;
     font-family: 'Playfair Display', 'Prata', 'Poiret One', 'Great Vibes',  cursive;
 }
+
+.banner-link-to {
+    transition: color 0.3s ease-in-out;
+}
+
+.banner-link-to:hover {
+    color: #01cdfe;
+}

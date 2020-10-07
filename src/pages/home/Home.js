@@ -23,6 +23,22 @@ const Home = (props) => {
               link="https://www.linkedin.com/in/myra-grace-s/"
             />
           </div>
+          <div className="responsive">
+            <Banner
+              catch=" "
+              title="Responsive Design"
+              linktotext=" "
+              link="https://www.linkedin.com/in/myra-grace-s/"
+            />
+          </div>
+          <div className="overview">
+            <Overview
+              title="All Devices"
+              text="Look good on desktop, tablet, and mobile."
+              linktext="See Projects"
+              link="https://www.linkedin.com/in/myra-grace-s/"
+            />
+          </div>
         </div>
     )
 }
