@@ -54,11 +54,17 @@
   flex-direction: column;
   z-index: 5;
   transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-transition: 0.2s;
 }
 
 .home-button {
   color: #AA6f73;
   transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
 }
 
 #desktop-nav a,
@@ -73,6 +79,9 @@
   border: none;
   color: #AA6f73;
   transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
 }
 
 #desktop-nav a:hover,
@@ -107,11 +116,17 @@
   background: radial-gradient(circle, rgba(90,249,255,1) 0%, rgba(227,144,255,1) 100%);
   margin: 4px 0;
   transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 4px);
   transform: rotate(-45deg) translate(-6px, 4px);
+  -moz-transform: rotate(-45deg) translate(-6px, 4px);
+  -ms-transform: rotate(-45deg) translate(-6px, 4px);
+  -o-transform: rotate(-45deg) translate(-6px, 4px);
+  -webkit-transform: rotate(-45deg) translate(-6px, 4px);
 }
 
 .change .bar2 {
@@ -119,6 +134,9 @@
 }
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-7px, -5px);
   transform: rotate(45deg) translate(-7px, -5px);
+  -moz-transform: rotate(45deg) translate(-7px, -5px);
+  -ms-transform: rotate(45deg) translate(-7px, -5px);
+  -o-transform: rotate(45deg) translate(-7px, -5px);
+  -webkit-transform: rotate(45deg) translate(-7px, -5px);
 }
