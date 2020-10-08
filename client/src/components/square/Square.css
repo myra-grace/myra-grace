@@ -1,0 +1,78 @@
+.square-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s-container {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #7A5C61;
+    border-radius: 50%;
+    transition: border 0.3s ease-in-out;
+    -moz-transition: border 0.3s ease-in-out;
+    -o-transition: border 0.3s ease-in-out;
+    -webkit-transition: border 0.3s ease-in-out;
+}
+
+.s-container:hover {
+    border: 1px solid #AA6f73;
+}
+
+.square-component-container {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+}
+
+.square-component-container:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.square-content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    backdrop-filter: blur(0);
+    background-color: rgba(255, 255, 255, 0);
+    transition: transform 0.3s, backdrop-filter 0.3s, background-color 0.2s, opacity 0.3s ease-in-out;
+    -moz-transition: transform 0.3s, backdrop-filter 0.3s, background-color 0.2s, opacity 0.3s ease-in-out;
+    -o-transition: transform 0.3s, backdrop-filter 0.3s, background-color 0.2s, opacity 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s, backdrop-filter 0.3s, background-color 0.2s, opacity 0.3s ease-in-out;
+}
+
+.square-content:hover {
+    opacity: 1;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.pad {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.pad h1 {
+    font-size: 20px;
+}
+
+.pad a {
+    font-size: 10px;
+}

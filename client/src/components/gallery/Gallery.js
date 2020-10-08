@@ -1,39 +1,22 @@
-import React, { useState, useEffect } from "react";
-import "./Gallery.css";
-import { Icon } from "react-icons-kit";
-import {chevronLeft} from 'react-icons-kit/feather/chevronLeft'
-import {chevronRight} from 'react-icons-kit/feather/chevronRight'
+import React, { useEffect, useState, useRef } from "react";
+import Slideshow from "../slideshow/Slideshow";
+import './Gallery.css';
 
 const Gallery = (props) => {
-  console.log(props.square);
+    let photosArr = [
+        { alt: "Outrun palette", src: "https://i.redd.it/aepphltiqy911.png", link: "https://i.redd.it/aepphltiqy911.png", origin: "net", title: "Title", splurge: "Splurge" },
+        { alt: "Outrun code", src: "https://i.redd.it/jfr0ixsgm9v21.jpg", link: "https://i.redd.it/jfr0ixsgm9v21.jpg", origin: "net", title: "Title", splurge: "Splurge" },
+        { alt: "Neon signs", src: "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1554401037/1554401037.jpg", link: "https://i.redd.it/jfr0ixsgm9v21.jpg", origin: "net", title: "Title", splurge: "Splurge" },
+    ];
 
-  useEffect(() => {
-    let ps = document.getElementById("projects-container");
-    if (ps === null) return;
-    ps.style.width = `${props.square}px`;
-    ps.style.height = `${props.square}px`;
-    console.log(props.square);
-  }, [props.square]);
-
-  return (
-    <div id="projects-container">
-      <button className="back"><Icon icon={chevronLeft}/></button>
-      <div className="projects-section">
-        <button className="project1">
-            {/* try to do the double scroll thing */}
-          <p className="title">TITLE</p>
-        </button>
-        <button className="project2">
-          <img />
-          <div className="project-text">
-              <p>title</p>
-              {/* <p>text</p> */}
-          </div>
-        </button>
-      </div>
-      <button className="forth"><Icon icon={chevronRight}/></button>
-    </div>
-  );
-};
+    return (
+        <div className="gallery-container">
+            <h1>Gallery</h1>
+            <div className="slideshow-container">
+                <Slideshow vw={props.vw} vh={props.vh} theArray={photosArr} pageLink="" keyWord="Photos" />
+            </div>
+        </div>
+    )
+}
 
 export default Gallery;

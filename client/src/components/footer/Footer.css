@@ -37,6 +37,15 @@
 
   display: grid;
   place-content: center;
+
+  transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+}
+
+.linkedin:hover, .github:hover {
+  color: blueviolet;
 }
 
 .email {

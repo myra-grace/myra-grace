@@ -30,7 +30,7 @@ const About = () => {
           </p>
           <p>
             <b>Technologies: </b>React, Redux, JavaScript, TypeScript, HTML, CSS, Git,
-            GitHub, Firebase, Node.js, Express, MongoDB, Shopify
+            GitHub, Firebase, Node, Express, MongoDB, Shopify
           </p>
         </div>
       </div>
