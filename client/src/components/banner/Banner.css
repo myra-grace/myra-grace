@@ -30,7 +30,7 @@
 }
 
 .banner-container h1 {
-  max-width: 100vw;
+  max-width: 100%;
   padding: 20px;
   font-size: 45px;
   color: #3e3e42;

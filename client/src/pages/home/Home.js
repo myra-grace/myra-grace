@@ -12,7 +12,7 @@ const Home = (props) => {
               catch="Web Developer"
               title="Myra-Grace Salinas"
               linktotext="Contact"
-              link="https://www.linkedin.com/in/myra-grace-s/"
+              link="mailto: myrags3@gmail.com"
             />
           </div>
           <div className="overview">
@@ -20,7 +20,7 @@ const Home = (props) => {
               title="Modern · Simple"
               text="Custom make your website from scratch or start from a template."
               linktext="See Templates"
-              link="https://www.linkedin.com/in/myra-grace-s/"
+              link="/templates"
             />
           </div>
           <div className="responsive">
@@ -36,7 +36,7 @@ const Home = (props) => {
               title="All Devices"
               text="Look good on desktop, tablet, and mobile."
               linktext="See Projects"
-              link="https://www.linkedin.com/in/myra-grace-s/"
+              link="/projects"
             />
           </div>
         </div>

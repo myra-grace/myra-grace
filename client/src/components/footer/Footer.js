@@ -23,7 +23,7 @@ const Footer = () => {
             <Icon size={"100%"} icon={email} />
           </button> */}
       </div>
-      <button className="email">myrags3@gmail.com</button>
+      <a className="email" href="mailto: myrags3@gmail.com" >myrags3@gmail.com</a>
     </div>
   );
 };
