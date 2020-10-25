@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "./Square.css";
+import "./Circle.css";
 
-const Square = (props) => {
+const Circle = (props) => {
     return (
-        <div className="square-component-container" style={{backgroundImage:`url('${props.bgimg}')`, backgroundPosition: "center", backgroundSize: "cover"}}>
-            <div className="square-content">
+        <div className="circle-component-container" style={{backgroundImage:`url('${props.bgimg}')`, backgroundPosition: "center", backgroundSize: "cover"}}>
+            <div className="circle-content">
                 <div className="pad">
                     <h1>{props.title}</h1>
                     <p>{props.text}</p>
@@ -15,4 +15,4 @@ const Square = (props) => {
     )
 }
 
-export default Square;
+export default Circle;
