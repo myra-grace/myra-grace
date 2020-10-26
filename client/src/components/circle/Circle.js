@@ -8,7 +8,7 @@ const Circle = (props) => {
                 <div className="pad">
                     <h1>{props.title}</h1>
                     <p>{props.text}</p>
-                    <a href={props.link}>{props.linkText}</a>
+                    <a href={props.link} target="_blank">{props.linkText}</a>
                 </div>
             </div>
         </div>
